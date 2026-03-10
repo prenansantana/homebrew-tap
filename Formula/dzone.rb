@@ -1,26 +1,26 @@
 class Dzone < Formula
   desc "Extract DNS zone files from any domain"
   homepage "https://github.com/prenansantana/extract-zone-file"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/prenansantana/extract-zone-file/releases/download/v0.2.0/dzone-darwin-arm64"
-      sha256 "e5284f377c76f72d715141979f06134b83d8e3b183c1f88397ab5a20aa1f427e"
+      url "https://github.com/prenansantana/extract-zone-file/releases/download/v0.3.0/dzone-darwin-arm64"
+      sha256 "593ef5932f3c90bcc26d010ef5efd4697ccaefe2b26ad18e2d28adb60b798eff"
     else
-      url "https://github.com/prenansantana/extract-zone-file/releases/download/v0.2.0/dzone-darwin-amd64"
-      sha256 "92c7453d077ca51732e3d8dda9e5ef3b671c7793bdbd4f42a7f076abc6c7aedf"
+      url "https://github.com/prenansantana/extract-zone-file/releases/download/v0.3.0/dzone-darwin-amd64"
+      sha256 "cd17480698de1747ec6e05900f4378aa72c826bbb04b4161b7529c729148809d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/prenansantana/extract-zone-file/releases/download/v0.2.0/dzone-linux-arm64"
-      sha256 "1c469ffb9ce141f62d215c49ca901286fc2e3b7b0b1f7ff9c1d8015c24e5a86c"
+      url "https://github.com/prenansantana/extract-zone-file/releases/download/v0.3.0/dzone-linux-arm64"
+      sha256 "5a12882beece4a4ac2b9b49a33f972c2080e85d8e7ae720c55919a02da30b483"
     else
-      url "https://github.com/prenansantana/extract-zone-file/releases/download/v0.2.0/dzone-linux-amd64"
-      sha256 "4362b43eca34ff517c4956c25384bd0d6e8c493fd6335ec817092a5fb183e668"
+      url "https://github.com/prenansantana/extract-zone-file/releases/download/v0.3.0/dzone-linux-amd64"
+      sha256 "85a1e7078291446ae68c04adf81ec665ab5e110d23fedcaddd9cd5cf62662d3c"
     end
   end
 
